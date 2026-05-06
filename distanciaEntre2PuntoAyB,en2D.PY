@@ -1,0 +1,10 @@
+print("ingrese coordenadas del punto A:")
+AX= float(input("AX:"))
+AY= float(input("AY:"))
+print ("ingrese coordenadas del puntoB:")
+BX= float(input("BX:"))
+BY= float(input("BY:"))
+D=((AX-BX)**2+(AY -BY)**2)**0.5
+print("\nSALIDA")
+print("--------------")
+print("RESULTADO:", D)
